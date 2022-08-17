@@ -1,0 +1,30 @@
+$green: rgb(167, 159, 159);
+
+.ripple {
+  width: 30px;
+  height: 30px;
+  margin-top: 15%;
+  margin-left: 6%;
+  animation: ripple 1s linear infinite;
+  border-radius: 50px;
+  background-image: url("./files/down.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ripple effect */
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba($green, 0.1),
+                0 0 0 10px rgba($green, 0.1),
+                0 0 0 20px rgba($green, 0.1),
+                0 0 0 30px rgba($green, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 0 10px rgba($green, 0.1),
+                0 0 0 20px rgba($green, 0.1),
+                0 0 0 30px rgba($green, 0.1),
+                0 0 0 30px rgba($green, 0);
+  }
+}
