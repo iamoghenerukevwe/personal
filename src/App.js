@@ -66,7 +66,7 @@ function App() {
       </div>
       
       <div className = "img">
-      <img src= {Type} alt ="Github" height = {570} width = {520} />
+      <img src= {Type} alt ="Github"  />
       </div>
 
     
