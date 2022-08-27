@@ -1,13 +1,21 @@
-import React from 'react';
-import './ripple.scss';
+import React from 'react'
 
 
-const ripple = () => {
+function ripple() {
   return (
-    <div className="ripple">
+    <div className = "ripple">
       
+      <p>I love creating beautiful</p>
+    <b>
+  <div className="innerIam">
+    sites.<br /> 
+    designs.<br />
+    experiences.<br />    
+    </div>
+</b>
+
     </div>
   )
 }
 
-export default ripple
+export default ripple;
